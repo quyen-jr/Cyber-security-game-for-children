@@ -5,7 +5,7 @@ if (storedMoney !== null) {
     scoreCoin = parseInt(storedMoney); // Chuyển đổi thành số nguyên
 } else {
     // Nếu không có dữ liệu trong Local Storage, sử dụng giá trị mặc định
-    scoreCoin = 0; // Đặt một giá trị mặc định
+    scoreCoin = 10000; // Đặt một giá trị mặc định
     localStorage.setItem('money', scoreCoin); // Lưu giá trị mặc định vào Local Storage
 }
 //localStorage.setItem('money', 90000);
