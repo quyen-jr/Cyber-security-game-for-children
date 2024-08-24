@@ -1,5 +1,5 @@
 
-var scoreCoin=0
+var scoreCoin=10000
 var storedMoney = localStorage.getItem('money');
 if (storedMoney !== null) {
     scoreCoin = parseInt(storedMoney); // Chuyển đổi thành số nguyên
